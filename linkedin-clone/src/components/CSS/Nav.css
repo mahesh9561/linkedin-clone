@@ -1,0 +1,67 @@
+.Nav_header {
+    padding: 0px;
+  }
+  
+  .Nav {
+    max-width: 1128px;
+    margin: auto;
+    padding: 12px 0 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  .Nav a {
+    width: 135px;
+    height: 34px;
+  }
+  
+  @media (max-width:768px) {
+    .Nav a {
+      padding: 0 5px;
+    }    
+  }
+  .btn_join{
+    font-size: 16px;
+    padding: 10px 12px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 12px;
+  }
+  .btn_join :hover{
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+  .btn_join {
+    font-size: 16px;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 12px;
+}
+
+.btn_join:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+}
+
+.btn_Signin {
+    box-shadow: inset 0 0 0 1px #0a66c2;
+    color: #0a66c2;
+    border-radius: 24px;
+    transition-duration: 167ms;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 2px 28px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.btn_Signin:hover{
+    background-color: rgba(112,181,249,0.15);
+    color: #0a66c2;
+    text-decoration: none;
+}

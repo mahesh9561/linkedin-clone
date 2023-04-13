@@ -1,0 +1,227 @@
+    .Container_Main {
+    grid-template-columns: 1fr main;
+}
+.ShareBox_Main {
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 8px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    border: none;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 0 0 rgb(0 0 0 / 20%);
+}
+
+/* .ShareBox_Main {
+    display: flex;
+    flex-direction: column;
+    color: #958b7b;
+    margin: 0 0 8px;
+    background: #fff;
+} */
+
+.ShareBox_Main div button {
+    outline: none;
+    color: rgba(0,0,0,0.6);
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 48px;
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.ShareBox_Main div:first-child {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px 0px 16px;
+}
+
+.ShareBox_Main div:first-child img {
+    width: 48px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.ShareBox_Main div:first-child button {
+    margin: 4px 0;
+    flex-grow: 1;
+    padding-left: 16px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 35px;
+    background-color: white;
+    text-align: left; 
+}
+.ShareBox_Main div:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 4px;
+}
+.ShareBox_Main div:nth-child(2) button img {
+    margin: 0 4px 0 -2px;
+}
+
+.ShareBox_Main div:nth-child(2) button span {
+    color: #70f5f9;
+}
+.Article{
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 8px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    border: none;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 0 0 rgb(0 0 0 / 20%);
+    padding: 0;
+    margin: 0 0 8px;
+    overflow: visible;
+}
+.sharedActor{
+    padding-right: 40px;
+    flex-wrap: nowrap;
+    padding: 12px 16px 0;
+    margin-bottom: 8px;
+    align-items: center;
+    display: flex;
+}
+.sharedActor a{
+    margin-right: 12px;
+    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    text-decoration: none;
+}
+.sharedActor a img{
+
+    width: 48px;
+    height: 48px;
+}
+.sharedActor a div{
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-left: 8px;
+    overflow: hidden;
+}
+.sharedActor a div span{
+ 
+    text-align: left;
+}
+.sharedActor a div span:first-child{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(0,0,0,0.6);
+}
+.sharedActor a div span::nth-child(n +1){
+    font-size: 12px;
+    color: rgba(0,0,0,0.6);
+}
+
+.sharedActor a button{
+    position: absolute;
+    right: 12px;
+    top: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.Description{
+    padding: 0 16px;
+    overflow: hidden;
+    color: rgba(0,0,0,0.9);
+    font-size: 14px;
+    text-align: left;
+}
+/* .ShareImg{
+    margin-top: 8px;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-color: #f9fafb;
+}
+.ShareImg a{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.ShareImg a img{
+    
+    width: 100%;
+    height: 100%;
+} */
+.ShareImg {
+    margin-top: 8px;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-color: transparent; /* Updated */
+}
+
+.ShareImg a {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.ShareImg a img {
+    width: 100%;
+    height: 100%;
+}
+
+.SocialCount{
+    line-height: 1.3;
+    display: flex;
+    align-items: flex-start;
+    overflow: auto;
+    margin: 0 16px;
+    padding: 8px 0;
+    border-bottom: 1px solid #e9e5df;
+    list-style: none;
+}
+.SocialCount li{
+    margin-right: 5px;
+    font-size: 12px;
+}
+.SocialCount li button{
+    display: flex;
+}
+.SocialCount li button img{
+    width: 20px;
+    height: 20px;
+}
+.SocialActor{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    min-height: 40px;
+    padding: 4px 8px;
+}
+.SocialActor button {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px;
+    color: #0a66c2;
+    border: none;
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+    .SocialActor button span {
+        margin-left: 8px;
+    }
+}
+.Content_Main_info .spinImg img{
+    text-align: center;
+    width: 30px;
+}
+ReactPlayer{
+    width: 100%;
+    height: 100%;
+}

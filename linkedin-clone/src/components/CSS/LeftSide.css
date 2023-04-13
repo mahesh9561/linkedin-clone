@@ -1,0 +1,156 @@
+.Container{
+    grid-area: leftside;
+    padding-top: 0;
+}
+.ArtCard{
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 8px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: box-shadow 83ms;
+    position: relative;
+    border: none;
+    box-shadow: 0 0 0 1px rgb(0 0 0/ 15%), 0 0 0 rgb(0 0 0 / 20%);
+}
+
+.UserInfo{
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    padding: 12px 12px 16px;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.CardBackground{
+    background: url("/public/images/card-bg.svg");
+    background-position: center;
+    background-size: 462px;
+    height: 54px;
+    margin: -12px -12px 0;
+}
+.Photo{
+    box-shadow: none;
+    background-image: url("/public/images/photo.svg");
+    width: 72px;
+    height: 72px;
+    box-sizing: border-box;
+    background-clip: content-box;
+    background-color: white;
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    margin: -38px auto 12px;
+    border-radius: 50%;
+}
+.Link{
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(0,0,0,0.9);
+    font-weight: 600;
+}
+.Link{
+    font-size: 16px;
+    color: rgba(0,0,0,0.9);
+    font-weight: 600;
+}
+.AddPhotoText{
+    color: #0a66c2;
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 1.33;
+    font-weight: 600;
+}
+.Widget {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  .Widget > a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 12px;
+  }
+  
+  .Widget > a:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+  
+  .Widget > a > div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .Widget > a > div > span:first-child {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 1.333;
+  }
+  
+  .Widget > a > div > span:nth-child(2) {
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+    line-height: 1.333;
+  }
+  
+  .Widget > svg {
+    color: rgba(0, 0, 0, 1);
+  }
+  .Item {
+    border-color: rgba(0, 0, 0, 0.8);
+    text-align: left;
+    padding: 12px;
+    font-size: 12px;
+    display: block;
+  }
+  
+  .Item span {
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+  }
+  
+  .Item span img {
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .Item:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+  
+.CommunityCard {
+    padding: 8px 0 0;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .CommunityCard a {
+    color: black;
+    padding: 4px 12px 4px 12px;
+    font-size: 12px;
+  }
+  
+  .CommunityCard a:hover {
+    color: #0a66c2;
+  }
+  
+  .CommunityCard a span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .CommunityCard a:last-child {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    border-top: 1px solid #d6cec2;
+    padding: 12px;
+  }
+  
+  .CommunityCard a:last-child:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+  }

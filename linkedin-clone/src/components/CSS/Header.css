@@ -1,0 +1,272 @@
+.Container_header {
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    left: 0;
+    padding: 0 24px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 100;
+  }
+  
+  .Content {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 1128px;
+  }
+  
+  .Logo {
+    margin-right: 8px;
+    font-size: 0px;
+  }
+  
+  .Search {
+    opacity: 1;
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .Search > div {
+    max-width: 280px;
+  }
+  
+  .Search > div input {
+    border: none;
+    box-shadow: none;
+    background-color: #eef3f8;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.9);
+    width: 218px;
+    padding: 0 8px 0 40px;
+    line-height: 1.75;
+    font-weight: 400;
+    font-size: 14px;
+    height: 34px;
+    border-color: #dce6f1;
+    vertical-align: text-top;
+  }
+  
+  .SearchIcon {
+    width: 40px;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 2px;
+    border-radius: 0 2px 2px 0;
+    margin: 0;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* .NavBar {
+    margin-left: auto;
+    display: block;
+  }
+   */
+  @media (max-width: 1000px) {
+    .NavBar {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      background: white;
+      width: 100%;
+    }
+  }
+   @media (max-width: 768px) {
+    .NavBar {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      background: white;
+      width: 100%;
+    }
+  }
+  
+  .NavListWrap {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+  }
+  
+  .NavListWrap .active span:after {
+    content: "";
+    transform: scaleX(1);
+    border-bottom: 2px solid var(--white, #fff);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    transition: transform 0.2s ease-in-out;
+    width: 100%;
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .NavList {
+    display: flex;
+    align-items: center;
+  }
+  
+  .NavList a {
+    align-items: center;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 1.5;
+    min-height: 50px;
+    min-width: 80px;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .NavList a span {
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .NavList a {
+      /* min-width: 70px; */
+    }
+  }
+  
+  .NavList:hover a span,
+  .NavList:active a span {
+    color: rgba(0, 0, 0, 0.9);
+  }
+  .SignOut {
+    position: absolute;
+    top: 45px;
+    background: white;
+    border-radius: 0 0 5px 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    transition-duration: 167ms;
+    text-align: center;
+    display: none;
+  }
+  .User {
+    display: flex;
+    align-items: center;
+  }
+  
+  .User a {
+    align-items: center;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 1.5;
+    min-height: 52px;
+    min-width: 80px;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .User a span {
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .User a {
+      min-width: 70px;
+    }
+  }
+  
+  .User:hover a span,
+  .User:active a span {
+    color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .User a svg {
+    width: 24px;
+    border-radius: 50%;
+  }
+  
+  .User a img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+  
+  .User span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .User:hover .SignOut {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .Work {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  
+  .Work a {
+    align-items: center;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 1.5;
+    min-height: 52px;
+    min-width: 80px;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .Work a span {
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .Work a {
+      min-width: 70px;
+    }
+  }
+  
+  .Work:hover a span,
+  .Work:active a span {
+    color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .Work a svg {
+    width: 24px;
+    border-radius: 50%;
+  }
+  
+  .Work a img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+  
+  .Work span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Work:hover .SignOut {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
